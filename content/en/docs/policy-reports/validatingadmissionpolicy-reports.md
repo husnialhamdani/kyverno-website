@@ -6,7 +6,7 @@ weight: 15
 
 Kyverno can generate reports for ValidatingAdmissionPolicies and their bindings. These reports provide information about the resources that are validated by the policies and the results of the validation. They can be used to monitor the health of the cluster and to ensure that the policies are being enforced as expected.
 
-To configure Kyverno to generate reports for ValidatingAdmissionPolicies, set the `--validatingAdmissionPolicyReports` flag to `true` in the reports controller. This flag is set to `false` by default.
+To configure Kyverno to generate reports for ValidatingAdmissionPolicies, set the `--validatingAdmissionPolicyReports` flag to `true` in the reports controller. This flag is set to `true` by default.
 
 ## Example: Trigger a PolicyReport
 
